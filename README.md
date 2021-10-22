@@ -66,5 +66,5 @@ Pude aprender um pouco mais sobre o uso de grids e responsividade
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/RaquelPenteado)
-- Twitter - [@yourusername](
+- Frontend Mentor - [RaquelPenteado](https://www.frontendmentor.io/profile/RaquelPenteado)
+- Twitter - [@raquelpenteado](https://twitter.com/raquelpenteado)
