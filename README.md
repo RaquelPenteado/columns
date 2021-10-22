@@ -22,9 +22,9 @@ O desafio consiste em criar uma tela responsiva com 3 colunas
 
 ### Screenshot
 
-![](C:\Users\raque\Documents\projetos\3-column-preview-card-component-main\images\resultado.png)
+![](./images/resultado.png)
 
-![](C:\Users\raque\Documents\projetos\3-column-preview-card-component-main\images\responsive.png)
+![](./images/responsive.png)
 
 ### Links
 
