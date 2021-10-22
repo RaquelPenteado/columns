@@ -1,0 +1,68 @@
+.container{
+    max-width: 96.0rem;
+    margin: 0 auto;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    margin: 2rem;
+}
+.card.sedans{
+    background-color: var(--orange);
+}
+.card.suvs{
+    background-color: var(--darkCyan);
+}
+.card.luxury{
+    background-color: var(--verydark);
+}
+.card{
+    padding: 4rem;
+}
+.card h1{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: var(--lightGray);
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.card p{
+    color: var(--transparentWhite);
+    line-height: 1.6;
+}
+.card a{
+    text-decoration: none;
+    background-color: var(--lightGray);
+    padding: 1.3rem 2.5rem;
+    border-radius: 2.6rem;
+    margin-top: 6.5rem;
+    display: inline-block;
+    border: 2px solid var(--lightGray);
+    transition: all .3s ease-in-out;
+}
+.card.sedans a{
+    color: var(--orange);
+}
+.card.suvs a{
+    color: var(--darkCyan);
+}
+.card.luxury a{
+    color: var(--verydark);
+}
+.card a:hover{
+    background: transparent;
+    color: var(--lightGray);
+}
+@media only screen and (max-width: 768px){
+    .content{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 425px){
+    .content{
+        margin: 2 .5rem;
+    } 
+}
